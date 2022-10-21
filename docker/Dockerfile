@@ -5,7 +5,7 @@ FROM node:10
 ENV SOURCE_BRANCH "master"
 
 # Clone the ipfs-sync repository
-RUN git clone https://github.com/graphprotocol/ipfs-sync \
+RUN git clone https://github.com/JayArrowz/ipfs-sync \
     && cd ipfs-sync \
     && git checkout "$SOURCE_BRANCH" \
     && npm install \

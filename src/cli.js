@@ -1,7 +1,7 @@
 const { build } = require('gluegun')
 
 const run = async argv => {
-  console.log("HELLO")
+  console.log("HELLO 1")
   const cli = build()
     .brand('ipfs-sync')
     .src(__dirname)
